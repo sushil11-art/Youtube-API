@@ -45,7 +45,7 @@ onVideoSelect=(video)=>
     render(){
         return(
             <div ui conatiner>
-                <SearchBar callMeWhenSubmit={this.onTermSubmit}/>
+                <SearchBar Submit={this.onTermSubmit}/>
                 < div className="ui grid">
                     <div className="ui row">
                     <div className="eleven wide column">
